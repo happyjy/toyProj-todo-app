@@ -1,0 +1,6 @@
+.TodoList {
+  min-height: 320px;
+  max-height: 513px;
+  //선택된 돔보다 더 많은 내용이 생기면 y축을 어떻게 해줄지 설정(scroll, overflow, hidden)
+  overflow-y: auto; //scroll
+}
