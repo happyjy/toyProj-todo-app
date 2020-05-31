@@ -22,4 +22,6 @@ const TodoListItem = ({ todo, onRemove, onToggle }) => {
   );
 };
 
-export default TodoListItem;
+// export default TodoListItem;
+//React.memo: 불푤요한 rendering을 줄여준다.(shoudlUpdateComponent와 같은 동작)
+export default React.memo(TodoListItem);
